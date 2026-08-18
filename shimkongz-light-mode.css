@@ -1,0 +1,455 @@
+#header {
+  background-image: url("https://raw.githubusercontent.com/garommz/shimkongz/cfd09ed253a03425a317b059ff6038fce37b03b7/Cover.png");
+  background-repeat: no-repeat;
+  background-position: center 0%;
+  background-size: cover;
+  min-height: 160px;
+  box-shadow: 0 0 4px #f5dcae;
+  position: relative;
+}
+
+#header .primary {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0px;
+  background: rgba(253, 242, 247, 0.85);
+}
+
+#outer.wrapper {
+  background-color: #fdf2f7;
+  background-image: linear-gradient(rgba(253, 242, 247, 0.4), rgba(253, 242, 247, 0.4)), url("https://raw.githubusercontent.com/garommz/shimkongz/0a19835d14bbf90e6f97ae97f31c0e8f8069eb79/Tiles.png");
+  background-size: cover, 16% auto;
+  background-repeat: no-repeat, repeat;
+  background-position: center top, center top;
+  color: #5b5470;
+}
+
+#inner.wrapper {
+  margin: 0em 4%;
+}
+
+#main,
+#inner.wrapper,
+.listbox .index,
+.work.own,
+.thread .even {
+  background: #fff6d9;
+}
+
+#main .heading {
+  color: #5b5470 !important;
+}
+
+#header .heading {
+  height: 15em;
+  margin-left: 0;
+  position: relative;
+  left: -40px;
+}
+
+#header .logo,
+#header .heading sup {
+  visibility: hidden;
+}
+
+#header .heading a {
+  color: #e8789f;
+  margin-left: 0;
+  font-weight: bold;
+}
+
+.event .userstuff {
+  background: #fce3ee;
+  border: 1px solid #f5dcae;
+}
+
+.filtering .filters #leave_filters {
+  background: #fff6d9;
+  color: #5b5470;
+}
+
+#main a {
+  color: #e8789f;
+}
+
+#greeting a.dropdown-toggle,
+#header .actions a {
+  color: #5b5470 !important;
+}
+
+#greeting .menu,
+#header .dropdown .menu,
+#header .dropdown:hover a {
+  background: #fff6d9;
+}
+
+span.submit.actions input.button {
+  display: none;
+}
+
+#greeting img.icon {
+  display: none;
+}
+
+#header #search .text,
+.search [role="tooltip"] {
+  background: #fff6d9;
+  color: #5b5470 !important;
+  border: 1px solid #f5dcae;
+}
+
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul {
+  background: #fff6d9 !important;
+  border: none;
+  color: #5b5470;
+}
+
+#header #search .text {
+  width: 5em;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.comment {
+  color: #5b5470;
+  background: #fce3ee;
+  border: none;
+}
+
+.notice a,
+.comment_notice a,
+.kudos_notice a,
+ul.notes a,
+.caution a,
+.error a,
+.comment_error a,
+.kudos_error a,
+.alert.flash a {
+  color: #e8789f;
+  font-weight: bold;
+}
+
+.splash .module h3 {
+  color: #e8789f;
+  border-bottom: 2px solid #ffd873;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a,
+.splash .favorite li:nth-of-type(2n+2) a {
+  color: #5b5470;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 110%;
+  background: #fff6d9;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  color: #fdf2f7;
+  font-weight: bold;
+  font-variant: small-caps;
+  background: #ffd873;
+}
+
+#footer {
+  background: #fff6d9;
+  color: #5b5470;
+  border-top: 3px solid #ffd873;
+}
+
+#footer a,
+#footer .heading {
+  color: #e8789f;
+}
+
+.actions a,
+.actions a:focus,
+.actions input:focus,
+.action:focus,
+.actions button,
+.actions li input,
+.actions li input[type="submit"],
+input[type="submit"],
+.actions li label,
+ul.navigation.actions li a,
+.action:link,
+.actions a:link {
+  background: #fce3ee;
+  border: 1px solid #f5dcae;
+  color: #5b5470;
+  border-radius: 8px;
+}
+
+.current,
+#dashboard .current {
+  background: #ffd873 !important;
+  color: #5b5470 !important;
+  border-radius: 8px;
+}
+
+#dashboard.own {
+  border-top: 5px solid #e8789f;
+  border-bottom: 5px solid #e8789f;
+}
+
+#dashboard a:hover {
+  background: #fce3ee;
+  color: #e8789f !important;
+}
+
+#dashboard a {
+  color: #5b5470;
+}
+
+dl.meta {
+  border: 1px solid #f5dcae;
+}
+
+.listbox .index,
+.listbox,
+fieldset fieldset.listbox {
+  background: #fff6d9;
+}
+
+form dl,
+fieldset,
+fieldset fieldset,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+input,
+select,
+select:focus,
+textarea,
+span.symbol.question,
+.own {
+  background: #fff6d9 !important;
+  color: #5b5470 !important;
+  border: 1px solid #f5dcae;
+}
+
+.autocomplete li.added,
+.post .meta dd ul li.added,
+label,
+label.required {
+  color: #5b5470;
+}
+
+span.delete {
+  background: #fff6d9;
+}
+
+span.delete a {
+  color: #e8789f;
+  font-weight: bold;
+}
+
+.delete a,
+span.delete {
+  box-shadow: -1px -1px 2px rgba(0,0,0,.1);
+}
+
+.ui-sortable li,
+.dynamic form,
+div.dynamic {
+  background: #fff6d9;
+  border: 1px solid #f5dcae;
+}
+
+.dropdown {
+  background: #fff6d9;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #fce3ee;
+  color: #5b5470;
+}
+
+li.blurb {
+  border: 1px solid #f5dcae;
+}
+
+.draft {
+  background: #fce3ee;
+  color: #5b5470;
+}
+
+#header h2,
+.draft .wrapper {
+  background: #fff6d9;
+  border: 1px solid #f5dcae;
+}
+
+#stat_chart svg {
+  filter: sepia(20%) saturate(150%) contrast(95%);
+}
+
+.reading h4.viewed,
+dl.index dd,
+table,
+th,
+dt.child {
+  background: #fce3ee;
+}
+
+#modal,
+span.replied {
+  background: #fff6d9;
+  color: #5b5470;
+  border: 2px solid #e8789f;
+}
+
+.thread .even {
+  background: #fce3ee;
+}
+
+.unread,
+span.unread {
+  background: #ffd873;
+  color: #5b5470;
+}
+
+.relationships .tag,
+.work .relationships a.tag,
+dd.relationship.tags a {
+  background: none;
+  color: #e8789f !important;
+  font-weight: bold;
+}
+
+.blurb h4 a:visited {
+  color: #b98a7a !important;
+}
+
+#main a:hover {
+  background: #fce3ee;
+  color: #e8789f;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: #fce3ee;
+}
+
+h4.heading.byline {
+  background: #fce3ee;
+  color: #5b5470;
+}
+
+#header form.search input[type="submit"] {
+  display: none !important;
+}
+
+#dashboard {
+  border: none !important;
+}
+
+#dashboard,
+#dashboard .primary,
+#dashboard .navigation {
+  border-top: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .menu,
+#small_login,
+.group.listbox,
+fieldset fieldset.listbox,
+form blockquote.userstuff,
+input:focus,
+textarea:focus,
+li.relationships a,
+.group.listbox .index,
+.dashboard fieldset fieldset.listbox .index,
+#dashboard a:hover,
+th,
+#dashboard .secondary,
+.secondary,
+.work.navigation .download,
+.javascript .work.navigation .download .secondary,
+.thread .even,
+.ui-datepicker tr:hover {
+  background: #fce3ee;
+}
+
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus,
+#header #search input:focus,
+#header #search input:hover,
+#dashboard a,
+#dashboard span,
+#dashboard .current,
+.heading,
+.group .heading,
+.filters dt a:hover {
+  color: #5b5470;
+}
+
+body,
+.group,
+.group .group,
+.region,
+.flash,
+fieldset,
+fieldset fieldset ul,
+form dl,
+textarea,
+#main .verbose legend,
+.verbose fieldset,
+.notice,
+ul.notes,
+input,
+textarea,
+table,
+th,
+td:hover,
+tr:hover,
+.symbol .question:hover,
+#modal,
+.ui-sortable li,
+.required .autocomplete,
+.autocomplete .notice,
+.system .intro,
+.comment_error,
+.kudos_error,
+div.dynamic,
+.dynamic form,
+#ui-datepicker-div,
+.ui-datepicker table,
+.annotation {
+  box-shadow: none;
+}
+
+.dashboard > .group {
+  border: none;
+}
+
+.dashboard .group .group {
+  border: 0.1px solid #f5dcae !important;
+}
+
+.filters .expander {
+  color: #e8789f !important;
+  font-weight: bold;
+}
